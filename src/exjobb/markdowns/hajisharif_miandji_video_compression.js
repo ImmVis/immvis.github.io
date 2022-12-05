@@ -1,5 +1,6 @@
 const markdown = `
 #### Description
+
 Video streams constitute a large part of the daily internet traffic. A one hour
 long video at 4K resolution and 25 frames per second requires about 2TB of
 storage if no compression is applied. As a result, it is of utmost need to find so-
@@ -15,7 +16,9 @@ learning approach for encoding and decoding a video using sparse represen-
 tations and applying fast and accurate quantization and entropy coding on the
 resulting sparse coefficients.
 
+
 #### Your tasks
+
 Explore using machine learning methods to develop a codec for video stream-
 ing. The codec consists of both an encoder and a decoder. You will use an unsu-
 pervised machine learning method, named AMDE, to learn a sparse represen-
@@ -26,15 +29,27 @@ an analysis of the quality of the codec in terms of compression efficiency and
 encoding latency in comparison with state-of-the-art video codec approaches.
 The source code and required tools for utilizing AMDE will be provided.
 
+
 #### Your profile
+
 We are looking for 1 student with an interest in machine learning, image pro-
 cessing, and computer graphics.
 
+
 #### Information
+
 Research group: Computer graphics and image processing
+
 Contact person: Saghi Hajisharif and Ehsan Miandji
+
 Location: The division for Media and Information Technology, Campus Norrköping
-Keywords: · machine learning, · image processing, · compression, · rendering
+
+Keywords:
+* machine learning
+* image processing
+* compression
+* rendering
+
 Level: Master
 `;
 

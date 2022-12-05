@@ -1,5 +1,6 @@
 const markdown = `
 #### Description
+
 Feature visualization answers questions about what a neural network — or
 parts of a network — are looking for by generating examples. If we want to
 understand individual features, we can search for examples where they have
@@ -9,21 +10,33 @@ to a lack of ground truth comparisons. Furthermore, the initial implementation
 for the technique is based on the outdated Tensorflow 1, which does not even
 run anymore.
 
+
 #### Your tasks
+
 Investigate different techniques for generating feature visualizations. For ex-
 ample, by optimizing for a given set of values instead of only the high values.
 Also try to create verifiable visualizations that can serve as a basis for Tensor-
 flow 2 and/or PyTorch implementations.
 
+
 #### Your profile
+
 We are looking for 1 student with an interest in machine learning and visualiza-
 tion.
 
+
 #### Information
+
 Research group: Computer graphics and image processing
+
 Contact person: Daniel Jönsson
+
 Location: The division for Media and Information Technology, Campus Norrköping
-Keywords: · machine learning, · visualization
+
+Keywords:
+* machine learning
+* visualization
+
 Level: Master
 `;
 

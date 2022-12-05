@@ -23,7 +23,7 @@
 					<td>
 						{{ jobb.location }}
 					</td>
-					<td colspan="2">
+					<td>
 						{{ jobb.students }}
 					</td>
 				</tr>

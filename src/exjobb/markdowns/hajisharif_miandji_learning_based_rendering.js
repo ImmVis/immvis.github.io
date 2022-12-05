@@ -1,5 +1,6 @@
 const markdown = `
 #### Description
+
 Photo-realistic rendering requires accurate modeling of the appearance of real-
 world materials using the bidirectional reflectance distribution function (BRDF).
 There are various ways to model BRDFs, and in practice due to their compact
@@ -14,7 +15,9 @@ ality of the BRDF, and therefore the rendering cost. Sparse modeling enables
 rendering speeds competitive with analytical models while admitting realistic
 modeling of BRDFs.
 
+
 #### Your tasks
+
 You will explore how non-parametric sparse BRDF modeling can be utilized for
 realistic rendering. You will modify an existing ray tracer such as PBRT/Mitsuba
 or write your own ray tracer to employ the non-parametric BRDF model and
@@ -23,15 +26,27 @@ code and required tools for sparse BRDF modeling is available. An analysis
 of how the parameters of sparse modeling affect the quality and efficiency of
 rendering is required as well.
 
+
 #### Your profile
+
 We are looking for 1-2 students with a background in machine learning and
 computer graphics.
 
+
 #### Information
+
 Research group: Computer graphics and image processing
+
 Contact person: Saghi Hajisharif and Ehsan Miandji
+
 Location: The division for Media and Information Technology, Campus Norrköping
-Keywords: · machine learning, · rendering, · BRDF, · sparse representations
+
+Keywords:
+* machine learning
+* rendering
+* BRDF
+* sparse representations
+
 Level: Master
 `;
 

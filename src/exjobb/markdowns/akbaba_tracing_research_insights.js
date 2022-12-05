@@ -1,11 +1,7 @@
 const markdown = `
 #### Description
-Designing, creating, and studying are all iterative, reflective process and we are interested in recording, organising, and visually exploring the artifacts and notes that are generated during these processes. We are looking for a MS student interested in diving into this design and engineering space to implement an interactive web-based visualization tool to support such reflection, navigation, and reporting of iterative practices. You will work with the APIs of cloud-based note-taking services like Notion or Evernote and js languages like d3 and Vue/React. We will work iteratively to develop the tool with design and visualization best practices. This project will take place in collaboration with students and faculty in the new Vis Collective research lab.
 
-#### Information
-Contact: Derya Akbaba
-Location: Norrköping
-People: 1
+Designing, creating, and studying are all iterative, reflective process and we are interested in recording, organising, and visually exploring the artifacts and notes that are generated during these processes. We are looking for a MS student interested in diving into this design and engineering space to implement an interactive web-based visualization tool to support such reflection, navigation, and reporting of iterative practices. You will work with the APIs of cloud-based note-taking services like Notion or Evernote and js languages like d3 and Vue/React. We will work iteratively to develop the tool with design and visualization best practices. This project will take place in collaboration with students and faculty in the new Vis Collective research lab.
 `;
 
 export default {
