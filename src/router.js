@@ -30,12 +30,12 @@ const routes = [
 		component: CoursesPage
 	},
 	{
-		path: '/exjobb',
+		path: '/exjobb-mit',
 		name: 'ExjobbList',
 		component: ExjobbListPage
 	},
 	{
-		path: '/exjobb/:jobbId([a-z0-9_]+)',
+		path: '/exjobb-mit/:jobbId([a-z0-9_]+)',
 		name: 'Exjobb',
 		component: ExjobbPage,
 		props: true
