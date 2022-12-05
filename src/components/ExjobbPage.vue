@@ -6,22 +6,34 @@
 		<!-- Info box -->
 		<h1>{{ myJobb.title }}</h1>
 		<div class="row">
-			<div class="col-6 p-2">
+			<div class="col-md-12 col-lg-6 p-0">
 				<div class="p-3">
-					<h5>Location</h5>
-					<p>{{ myJobb.location }}</p>
-					<h5>Number of people</h5>
-					<p>{{ myJobb.students }}</p>
-					<h5>Contact</h5>
-					<ul>
-						<li v-for="person in myJobb.contact" :key="person.name" class="contact">
-							<img :src="person.image">
-							<a :href="person.url">{{ person.name }}</a>
-						</li>
-					</ul>
+
+					<table class="table">
+						<tbody>
+							<tr>
+								<th>Location</th>
+								<td>{{ myJobb.location }}</td>
+							</tr>
+							<tr>
+								<th>Number of people</th>
+								<td>{{ myJobb.students }}</td>
+							</tr>
+							<tr>
+								<th>Contact</th>
+								<td>
+									<div v-for="person in myJobb.contact" :key="person.name" class="contact">
+										<img :src="person.image">
+										<a :href="person.url">{{ person.name }}</a>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+
 				</div>
 			</div>
-			<div class="col-6 p-2 d-flex align-items-center image-box">
+			<div class="col-md-12 col-lg-6 p-0 d-flex align-items-center image-box">
 				<div class="p-3">
 					<img v-if="myJobb.image" :src="myJobb.image">
 					<img v-else src="https://picsum.photos/800/200">
@@ -70,6 +82,9 @@
 		background-position: 50% 35%;
 	}
 
+	.contact {
+		padding: 4px;
+	}
 	.contact img {
 		width: 2em;
 		height: 2em;
