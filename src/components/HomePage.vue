@@ -8,7 +8,7 @@
 		<hr>
 
 		<router-link :to="{ name: 'ExjobbList' }" class="">
-			Click here for to view all listed exjobbs.
+			Click here to view all available exjobbs.
 		</router-link>
 	</div>
 </template>
