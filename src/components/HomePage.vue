@@ -29,6 +29,7 @@
 
 <style scoped>
 	.jumbotron {
-		background-image: url("https://picsum.photos/2000/600");
+		background-image: url("../assets/joel-filipe-_AjqGGafofE-unsplash.jpg");
+		background-position: 50% 35%;
 	}
 </style>

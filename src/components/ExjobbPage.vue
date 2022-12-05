@@ -66,7 +66,8 @@
 
 <style scoped>
 	.jumbotron {
-		background-image: url("https://picsum.photos/2000/400");
+		background-image: url("../assets/janko-ferlic-sfL_QOnmy00-unsplash.jpg");
+		background-position: 50% 35%;
 	}
 
 	.contact img {

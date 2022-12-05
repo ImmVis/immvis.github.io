@@ -52,6 +52,8 @@
 
 <style scoped>
 	.jumbotron {
-		background-image: url("https://picsum.photos/2000/500");
+/*		background-image: url("https://picsum.photos/id/974/2000/900");*/
+		background-image: url("../assets/aldebaran-s-qtRF_RxCAo0-unsplash.jpg");
+		background-position: 50% 30%;
 	}
 </style>

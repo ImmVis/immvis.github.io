@@ -19,7 +19,7 @@
 	.jumbotron {
 		background: var(--bs-dark);
 		background-size: cover;
-		background-position: bottom;
+		background-position: center;
 		text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 	}
 </style>
