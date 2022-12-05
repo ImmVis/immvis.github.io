@@ -55,7 +55,7 @@
 					},
 					{
 						route: 'ExjobbList',
-						title: 'ExjobbList',
+						title: 'Exjobb',
 						enabled: true,
 					},
 				]

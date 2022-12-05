@@ -1,36 +1,17 @@
 const markdown = `
 #### Description
 
-Photo-realistic rendering requires accurate modeling of the appearance of real-
-world materials using the bidirectional reflectance distribution function (BRDF).
-There are various ways to model BRDFs, and in practice due to their compact
-and flexible form, analytic BRDF models are often employed to estimate the sur-
-face properties. However, these models despite being efficient for rendering,
-are not very realistic. Measured BRDFs on the other hand can accurately model
-a realistic appearance, but they are often computationally expensive and con-
-sume significantly more memory, which makes them impractical for real-world
-applications. It has been shown, however, with sparse modeling of measured
-BRDFs, a non-parametric model can be defined that reduces the dimension-
-ality of the BRDF, and therefore the rendering cost. Sparse modeling enables
-rendering speeds competitive with analytical models while admitting realistic
-modeling of BRDFs.
+Photo-realistic rendering requires accurate modeling of the appearance of real-world materials using the bidirectional reflectance distribution function (BRDF). There are various ways to model BRDFs, and in practice due to their compact and flexible form, analytic BRDF models are often employed to estimate the surface properties. However, these models despite being efficient for rendering, are not very realistic. Measured BRDFs on the other hand can accurately model a realistic appearance, but they are often computationally expensive and consume significantly more memory, which makes them impractical for real-world applications. It has been shown, however, with sparse modeling of measured BRDFs, a non-parametric model can be defined that reduces the dimensionality of the BRDF, and therefore the rendering cost. Sparse modeling enables rendering speeds competitive with analytical models while admitting realistic modeling of BRDFs.
 
 
 #### Your tasks
 
-You will explore how non-parametric sparse BRDF modeling can be utilized for
-realistic rendering. You will modify an existing ray tracer such as PBRT/Mitsuba
-or write your own ray tracer to employ the non-parametric BRDF model and
-analyze the capability of this model for fast and realistic rendering. The source
-code and required tools for sparse BRDF modeling is available. An analysis
-of how the parameters of sparse modeling affect the quality and efficiency of
-rendering is required as well.
+You will explore how non-parametric sparse BRDF modeling can be utilized for realistic rendering. You will modify an existing ray tracer such as PBRT/Mitsuba or write your own ray tracer to employ the non-parametric BRDF model and analyze the capability of this model for fast and realistic rendering. The source code and required tools for sparse BRDF modeling is available. An analysis of how the parameters of sparse modeling affect the quality and efficiency of rendering is required as well.
 
 
 #### Your profile
 
-We are looking for 1-2 students with a background in machine learning and
-computer graphics.
+We are looking for 1-2 students with a background in machine learning and computer graphics.
 
 
 #### Information
